@@ -8,6 +8,48 @@ html{
     font-size: 10px;
 }
 .body{
-    background-color: black;
+    background-color: rgb(44, 42, 42);
     color: #fff;
+}
+section{
+    min-height: 100vh;
+    padding: 100px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    position: absolute;
+    top: 50px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.cont{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgb(77, 73, 73);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.cont p{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+    text-align: justify;
+}
+.button button{
+    margin-top: 40px;
+    width: fit-content;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: rgb(25, 28, 29);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-end;
 }
